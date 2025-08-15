@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "tabulardelta" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tabulardelta-{{ version }}.tar.gz
-  sha256: 190e2b774dca2b2d1a7e6dc9cc6b4540cfe90c0b51816b879822b4053c2b1cd0
+  sha256: 64965c345c5896ac51791bb80cb5dbd08be1b4fd5e15daa23d949aaad3aef807
 
 build:
   noarch: python
